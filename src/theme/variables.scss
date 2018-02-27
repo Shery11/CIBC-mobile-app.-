@@ -37,8 +37,8 @@ $colors: (
   primary:    #488aff,
   secondary:  #32db64,
   danger:     #f53d3d,
-  light:      #f4f4f4,
-  dark:       #222
+  light:      #f10404,
+  dark:       #3a3e47
 );
 
 
@@ -59,7 +59,13 @@ $colors: (
 // App Windows Variables
 // --------------------------------------------------
 // Windows only Sass variables can go here
+$toolbar-background: #b00b1c;
+$toolbar-border-color: #123456;
+$toolbar-text-color: #123456;
+$toolbar-active-color: #123456;
+$toolbar-inactive-color: #123456;    
 
+$toolbar-title-color : #000;
 
 
 

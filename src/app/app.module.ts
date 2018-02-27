@@ -13,6 +13,7 @@ import { SigninPage } from '../pages/signin/signin';
 import { TravelToolsPage } from '../pages/travel-tools/travel-tools';
 import { ProductsPage } from '../pages/products/products';
 import { OpenAnAccountPage } from '../pages/open-an-account/open-an-account';
+import { InvestmentProfilePage } from '../pages/investment-profile/investment-profile';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -29,7 +30,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SigninPage,
     TravelToolsPage,
     ProductsPage,
-    OpenAnAccountPage
+    OpenAnAccountPage,
+    InvestmentProfilePage
   ],
   imports: [
     BrowserModule,
@@ -47,7 +49,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SigninPage,
     TravelToolsPage,
     ProductsPage,
-    OpenAnAccountPage
+    OpenAnAccountPage,
+    InvestmentProfilePage
   ],
   providers: [
     StatusBar,

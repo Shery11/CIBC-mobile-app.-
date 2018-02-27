@@ -13,6 +13,8 @@ import { SigninPage } from '../pages/signin/signin';
 import { TravelToolsPage } from '../pages/travel-tools/travel-tools';
 import { ProductsPage } from '../pages/products/products';
 import { OpenAnAccountPage } from '../pages/open-an-account/open-an-account';
+import { InvestmentProfilePage } from '../pages/investment-profile/investment-profile';
+
 
 @Component({
   templateUrl: 'app.html'
@@ -20,7 +22,7 @@ import { OpenAnAccountPage } from '../pages/open-an-account/open-an-account';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = HomePage;
+  rootPage: any = InvestmentProfilePage;
 
   pages: Array<{title: string, component: any,icon:any}>;
   accounts: Array<{title: string, component: any,icon:any}>;
@@ -32,7 +34,7 @@ export class MyApp {
     this.pages = [
       { title: 'Open An Account', component: OpenAnAccountPage,icon:"add-circle"},
       { title: 'Explore Products', component: ProductsPage,icon:"cart" },
-      { title: 'CIBC Apps and Sites', component: CibcAppsandSitesPage,icon:"grid" },
+      { title: 'CIBC Apps and Sites', component: CibcAppsandSitesPage,icon:"apps" },
       { title: 'Find Us', component: FindUsPage,icon:"pin" },
       { title: 'Travel Tools', component: TravelToolsPage,icon:"logo-usd" },
       
