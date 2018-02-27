@@ -14,6 +14,85 @@
     </ion-navbar>
   </ion-header>
 
+ <ion-content>
+   hello
+ </ion-content>
+
 <ion-content padding>
+
+    <ion-list radio-group [(ngModel)]="relationship" no-lines>
+       
+        <h4>Which statement best describes your............?</h4>  
+        <ion-item>
+          <ion-label>Lorem</ion-label>
+          <ion-radio value="lorem" checked></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>Ipsum</ion-label>
+          <ion-radio value="ipsum"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>Statum</ion-label>
+          <ion-radio value="statum" [disabled]="isDisabled"></ion-radio>
+        </ion-item>
+      </ion-list>
+
+
+      <hr>
+
+
+      <ion-list radio-group [(ngModel)]="relationship" no-lines>
+          <h4>Which statement best describes your............?</h4>  
+          <ion-item>
+            <ion-label>Friends</ion-label>
+            <ion-radio value="fnds" checked></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Family</ion-label>
+            <ion-radio value="fily"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Enemies</ion-label>
+            <ion-radio value="emies"></ion-radio>
+          </ion-item>
+        </ion-list>
+
+        <hr>
+        
+        
+        <ion-list radio-group [(ngModel)]="relationship" no-lines>
+            <h4>Which statement best describes your............?</h4>  
+          <ion-item>
+              <ion-label>Friends</ion-label>
+              <ion-radio value="iends" ></ion-radio>
+            </ion-item>
+            <ion-item>
+              <ion-label>Family</ion-label>
+              <ion-radio value="amily"></ion-radio>
+            </ion-item>
+            <ion-item>
+              <ion-label>Enemies</ion-label>
+              <ion-radio value="eemies" ></ion-radio>
+            </ion-item>
+          </ion-list>
+
+
+          <hr>
+           
+        <ion-list radio-group [(ngModel)]="relationship" no-lines>
+            <h4>Which statement best describes your............?</h4>  
+          <ion-item>
+              <ion-label>Friends</ion-label>
+              <ion-radio value="fr" ></ion-radio>
+            </ion-item>
+            <ion-item>
+              <ion-label>Family</ion-label>
+              <ion-radio value="f"></ion-radio>
+            </ion-item>
+            <ion-item>
+              <ion-label>Enemies</ion-label>
+              <ion-radio value="e" ></ion-radio>
+            </ion-item>
+          </ion-list>
 
 </ion-content>
