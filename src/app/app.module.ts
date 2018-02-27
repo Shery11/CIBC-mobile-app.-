@@ -5,6 +5,14 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import { CibcAppsandSitesPage } from '../pages/cibc-appsand-sites/cibc-appsand-sites';
+import { FindUsPage } from '../pages/find-us/find-us';
+import { ForgotPasswordPage } from '../pages/forgot-password/forgot-password';
+import { RegisterPage } from '../pages/register/register';
+import { SigninPage } from '../pages/signin/signin';
+import { TravelToolsPage } from '../pages/travel-tools/travel-tools';
+import { ProductsPage } from '../pages/products/products';
+import { OpenAnAccountPage } from '../pages/open-an-account/open-an-account';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -13,7 +21,15 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    CibcAppsandSitesPage,
+    FindUsPage,
+    ForgotPasswordPage,
+    RegisterPage,
+    SigninPage,
+    TravelToolsPage,
+    ProductsPage,
+    OpenAnAccountPage
   ],
   imports: [
     BrowserModule,
@@ -23,7 +39,15 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    CibcAppsandSitesPage,
+    FindUsPage,
+    ForgotPasswordPage,
+    RegisterPage,
+    SigninPage,
+    TravelToolsPage,
+    ProductsPage,
+    OpenAnAccountPage
   ],
   providers: [
     StatusBar,

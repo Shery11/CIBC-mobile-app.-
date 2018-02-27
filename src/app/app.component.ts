@@ -5,6 +5,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import { CibcAppsandSitesPage } from '../pages/cibc-appsand-sites/cibc-appsand-sites';
+import { FindUsPage } from '../pages/find-us/find-us';
+import { ForgotPasswordPage } from '../pages/forgot-password/forgot-password';
+import { RegisterPage } from '../pages/register/register';
+import { SigninPage } from '../pages/signin/signin';
+import { TravelToolsPage } from '../pages/travel-tools/travel-tools';
+import { ProductsPage } from '../pages/products/products';
+import { OpenAnAccountPage } from '../pages/open-an-account/open-an-account';
 
 @Component({
   templateUrl: 'app.html'
@@ -14,15 +22,28 @@ export class MyApp {
 
   rootPage: any = HomePage;
 
-  pages: Array<{title: string, component: any}>;
+  pages: Array<{title: string, component: any,icon:any}>;
+  accounts: Array<{title: string, component: any,icon:any}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage }
+      { title: 'Open An Account', component: OpenAnAccountPage,icon:"add-circle"},
+      { title: 'Explore Products', component: ProductsPage,icon:"cart" },
+      { title: 'CIBC Apps and Sites', component: CibcAppsandSitesPage,icon:"grid" },
+      { title: 'Find Us', component: FindUsPage,icon:"pin" },
+      { title: 'Travel Tools', component: TravelToolsPage,icon:"logo-usd" },
+      
+      
+    ];
+
+    this.accounts = [
+      { title: 'Sign In', component: SigninPage,icon:"person" },
+      { title: 'Register', component: RegisterPage ,icon:""},
+      { title: 'Forgot Password', component: ForgotPasswordPage,icon:"" },
+     
     ];
 
   }
