@@ -14,6 +14,10 @@ import { TravelToolsPage } from '../pages/travel-tools/travel-tools';
 import { ProductsPage } from '../pages/products/products';
 import { OpenAnAccountPage } from '../pages/open-an-account/open-an-account';
 import { InvestmentProfilePage } from '../pages/investment-profile/investment-profile';
+import { SimilarProfilePage } from '../pages/similar-profile/similar-profile';
+import { NotificationsPage } from '../pages/notifications/notifications';
+
+
 
 
 @Component({
@@ -22,7 +26,7 @@ import { InvestmentProfilePage } from '../pages/investment-profile/investment-pr
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = InvestmentProfilePage;
+  rootPage: any = NotificationsPage;
 
   pages: Array<{title: string, component: any,icon:any}>;
   accounts: Array<{title: string, component: any,icon:any}>;

@@ -14,6 +14,9 @@ import { TravelToolsPage } from '../pages/travel-tools/travel-tools';
 import { ProductsPage } from '../pages/products/products';
 import { OpenAnAccountPage } from '../pages/open-an-account/open-an-account';
 import { InvestmentProfilePage } from '../pages/investment-profile/investment-profile';
+import { SimilarProfilePage } from '../pages/similar-profile/similar-profile';
+import { NotificationsPage } from '../pages/notifications/notifications';
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -31,7 +34,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TravelToolsPage,
     ProductsPage,
     OpenAnAccountPage,
-    InvestmentProfilePage
+    InvestmentProfilePage,
+    SimilarProfilePage,
+    NotificationsPage
   ],
   imports: [
     BrowserModule,
@@ -50,7 +55,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TravelToolsPage,
     ProductsPage,
     OpenAnAccountPage,
-    InvestmentProfilePage
+    InvestmentProfilePage,
+    SimilarProfilePage,
+    NotificationsPage
   ],
   providers: [
     StatusBar,
