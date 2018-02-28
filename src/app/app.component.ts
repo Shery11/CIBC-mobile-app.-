@@ -16,6 +16,7 @@ import { OpenAnAccountPage } from '../pages/open-an-account/open-an-account';
 import { InvestmentProfilePage } from '../pages/investment-profile/investment-profile';
 import { SimilarProfilePage } from '../pages/similar-profile/similar-profile';
 import { NotificationsPage } from '../pages/notifications/notifications';
+import { AppAccessPage } from '../pages/app-access/app-access';
 
 
 
@@ -26,7 +27,7 @@ import { NotificationsPage } from '../pages/notifications/notifications';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = NotificationsPage;
+  rootPage: any = AppAccessPage;
 
   pages: Array<{title: string, component: any,icon:any}>;
   accounts: Array<{title: string, component: any,icon:any}>;

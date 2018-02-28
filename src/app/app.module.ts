@@ -16,6 +16,7 @@ import { OpenAnAccountPage } from '../pages/open-an-account/open-an-account';
 import { InvestmentProfilePage } from '../pages/investment-profile/investment-profile';
 import { SimilarProfilePage } from '../pages/similar-profile/similar-profile';
 import { NotificationsPage } from '../pages/notifications/notifications';
+import { AppAccessPage } from '../pages/app-access/app-access';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -36,7 +37,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     OpenAnAccountPage,
     InvestmentProfilePage,
     SimilarProfilePage,
-    NotificationsPage
+    NotificationsPage,
+    AppAccessPage
   ],
   imports: [
     BrowserModule,
@@ -57,7 +59,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     OpenAnAccountPage,
     InvestmentProfilePage,
     SimilarProfilePage,
-    NotificationsPage
+    NotificationsPage,
+    AppAccessPage
   ],
   providers: [
     StatusBar,
