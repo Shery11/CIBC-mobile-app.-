@@ -17,8 +17,9 @@ import { InvestmentProfilePage } from '../pages/investment-profile/investment-pr
 import { SimilarProfilePage } from '../pages/similar-profile/similar-profile';
 import { NotificationsPage } from '../pages/notifications/notifications';
 import { AppAccessPage } from '../pages/app-access/app-access';
-
-
+import { SettingUpProfilePage } from '../pages/setting-up-profile/setting-up-profile';
+import { CibcAppAccessPage } from '../pages/cibc-app-access/cibc-app-access';
+import { AbcDivisionGrowthFunPage } from '../pages/abc-division-growth-fun/abc-division-growth-fun';
 
 
 @Component({
@@ -27,7 +28,7 @@ import { AppAccessPage } from '../pages/app-access/app-access';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = AppAccessPage;
+  rootPage: any = AbcDivisionGrowthFunPage;
 
   pages: Array<{title: string, component: any,icon:any}>;
   accounts: Array<{title: string, component: any,icon:any}>;

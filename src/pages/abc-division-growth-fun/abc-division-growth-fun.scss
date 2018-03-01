@@ -1,0 +1,35 @@
+page-abc-division-growth-fun {
+
+        .main{
+              text-align: center;
+              align-content: center;
+              background-color:#efefef;
+              display: flex;
+              color: #af0b1c;
+           
+          }
+      
+          .rows{
+              text-align: center;
+              align-content: center;
+              display: flex;
+              border-bottom: 1px solid #000;
+              
+      
+          }
+            .rowheader{
+              text-align: center;
+              align-content: center;
+              background-color:#707070;
+              display: flex;
+              color: #efefef;
+              border: 1px solid #707070;
+              
+          }
+          .center {
+              margin: auto;
+              width: 100%;
+              padding: 15px;
+          }
+
+}
