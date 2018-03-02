@@ -20,6 +20,7 @@ import { AppAccessPage } from '../pages/app-access/app-access';
 import { SettingUpProfilePage } from '../pages/setting-up-profile/setting-up-profile';
 import { CibcAppAccessPage } from '../pages/cibc-app-access/cibc-app-access';
 import { AbcDivisionGrowthFunPage } from '../pages/abc-division-growth-fun/abc-division-growth-fun';
+import { ServicesPage } from '../pages/services/services';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -44,7 +45,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AppAccessPage,
     SettingUpProfilePage,
     CibcAppAccessPage,
-    AbcDivisionGrowthFunPage
+    AbcDivisionGrowthFunPage,
+    ServicesPage
   ],
   imports: [
     BrowserModule,
@@ -69,7 +71,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AppAccessPage,
     SettingUpProfilePage,
     CibcAppAccessPage,
-    AbcDivisionGrowthFunPage
+    AbcDivisionGrowthFunPage,
+    ServicesPage
   ],
   providers: [
     StatusBar,

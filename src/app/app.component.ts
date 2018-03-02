@@ -20,6 +20,7 @@ import { AppAccessPage } from '../pages/app-access/app-access';
 import { SettingUpProfilePage } from '../pages/setting-up-profile/setting-up-profile';
 import { CibcAppAccessPage } from '../pages/cibc-app-access/cibc-app-access';
 import { AbcDivisionGrowthFunPage } from '../pages/abc-division-growth-fun/abc-division-growth-fun';
+import { ServicesPage } from '../pages/services/services';
 
 
 @Component({
@@ -28,7 +29,7 @@ import { AbcDivisionGrowthFunPage } from '../pages/abc-division-growth-fun/abc-d
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = AbcDivisionGrowthFunPage;
+  rootPage: any = ServicesPage;
 
   pages: Array<{title: string, component: any,icon:any}>;
   accounts: Array<{title: string, component: any,icon:any}>;
