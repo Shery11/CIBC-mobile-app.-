@@ -21,6 +21,7 @@ import { SettingUpProfilePage } from '../pages/setting-up-profile/setting-up-pro
 import { CibcAppAccessPage } from '../pages/cibc-app-access/cibc-app-access';
 import { AbcDivisionGrowthFunPage } from '../pages/abc-division-growth-fun/abc-division-growth-fun';
 import { ServicesPage } from '../pages/services/services';
+import { ChartsPage } from '../pages/charts/charts';
 
 
 @Component({
@@ -29,10 +30,11 @@ import { ServicesPage } from '../pages/services/services';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = ServicesPage;
+  rootPage: any = HomePage;
 
   pages: Array<{title: string, component: any,icon:any}>;
   accounts: Array<{title: string, component: any,icon:any}>;
+  other: Array<{title: string, component: any}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
@@ -54,6 +56,20 @@ export class MyApp {
       { title: 'Forgot Password', component: ForgotPasswordPage,icon:"" },
      
     ];
+
+    this.other = [
+
+      { title: 'InvestmentProfilePage', component: InvestmentProfilePage},
+      { title: 'SimilarProfilePage', component: SimilarProfilePage},
+      { title: 'NotificationsPage', component: NotificationsPage},
+      { title: 'AppAccessPage', component: AppAccessPage},
+      { title: 'SettingUpProfilePage', component: SettingUpProfilePage},
+      { title: 'CibcAppAccessPage', component: CibcAppAccessPage},
+      { title: 'AbcDivisionGrowthFunPage', component: AbcDivisionGrowthFunPage},
+      { title: 'ServicesPage', component: ServicesPage},
+      { title: 'ChartsPage', component: ChartsPage},
+
+    ]
 
   }
 
